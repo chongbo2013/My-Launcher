@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string-array name="desktop_transition_effect_entries">
+    <item>"Tiêu chuẩn"</item>
+    <item>"Đàn hồi"</item>
+    <item>"Máy tính bảng"</item>
+    <item>"Phóng to"</item>
+    <item>"Thu nhỏ"</item>
+    <item>"Xoay lên trên"</item>
+    <item>"Xoay xuống dưới"</item>
+    <item>"Xoay tròn"</item>
+    <item>"Lật"</item>
+    <item>"Lập phương lõm"</item>
+    <item>"Lập phương lồi"</item>
+    <item>"Xếp chồng"</item>
+    <item>"Phong cầm"</item>
+    <item>"Hình trụ lõm"</item>
+    <item>"Hình trụ lồi"</item>
+    <item>"Xoay tròn"</item>
+  </string-array>
+</resources>

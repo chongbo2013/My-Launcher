@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="application_name">"Trình khởi chạy"</string>
+	<string name="folder_name">"Thư mục"</string>
+	<string name="chooser_wallpaper">"Chọn hình nền từ"</string>
+	<string name="wallpaper_instructions">"Đặt hình nền"</string>
+	<string name="pick_wallpaper">"Hình nền"</string>
+	<string name="activity_not_found">"Ứng dụng chưa được cài đặt."</string>
+	<string name="widgets_tab_label">"Tiện ích"</string>
+	<string name="rename_folder_title">"Đặt tên"</string>
+	
+	<!-- Title of dialog box -->
+	<string name="group_applications">"Ứng dụng"</string>
+	<string name="group_shortcuts">"Lối tắt"</string>
+	<string name="group_widgets">"Tiện ích"</string>
+	<string name="group_wallpapers">"Hình nền"</string>
+	<string name="completely_out_of_space">"Không còn chỗ trên Màn hình chính của bạn."</string>
+	<string name="out_of_space">"Không còn khoảng trống trên Màn hình chính này."</string>
+	<string name="shortcut_installed">"Lối tắt \"<xliff:g example="Browser" id="name">%s</xliff:g>\" created.</string>
+	<string name="shortcut_uninstalled">"Lối tắt \"<xliff:g example="Browser" id="name">%s</xliff:g>\" was removed.</string>
+	<string name="shortcut_duplicate">"Lối tắt \"<xliff:g example="Browser" id="name">%s</xliff:g>\" already exists.</string>
+	<string name="title_select_shortcut">"Chọn lối tắt"</string>
+	<string name="title_select_application">"Chọn ứng dụng"</string>
+	  
+	<!-- Permissions: -->
+	<string name="permlab_install_shortcut">"cài đặt lối tắt"</string>
+	<string name="permdesc_install_shortcut">"Cho phép ứng dụng thêm lối tắt mà không cần sự can thiệp của người dùng."</string>
+	<string name="permlab_uninstall_shortcut">"gỡ cài đặt lối tắt"</string>
+	<string name="permdesc_uninstall_shortcut">"Cho phép ứng dụng xóa lối tắt mà không cần sự can thiệp của người dùng."</string>
+	<string name="permlab_read_settings">"đọc cài đặt Màn hình trang chủ và lối tắt"</string>
+	<string name="permdesc_read_settings">"Cho phép ứng dụng đọc cài đặt và lối tắt trên Màn hình chính."</string>
+	<string name="permlab_write_settings">"ghi cài đặt Màn hình trang chủ và lối tắt"</string>
+	<string name="permdesc_write_settings">"Cho phép ứng dụng thay đổi cài đặt và lối tắt trên Màn hình chính."</string>
+	<string name="gadget_error_text">"Sự cố khi tải tiện ích"</string>
+	<string name="folder_hint_text">"Thư mục"</string>
+	
+	<string name="workspace_description_format">"Màn hình chính %1$d"</string>
+	<string name="default_scroll_format">"Trang %1$d trong tổng số %2$d"</string>
+	<string name="workspace_scroll_format">"Màn hình chính %1$d trong tổng số %2$d"</string>
+	<add-resource name="default_folder_name" type="string" />
+	<string name="folder_opened">"Đã mở thư mục, <xliff:g example="5" id="width">%1$d</xliff:g> by <xliff:g example="3" id="height">%2$d</xliff:g></string>
+	<string name="folder_tap_to_close">"Chạm để đóng thư mục"</string>
+	<string name="folder_tap_to_rename">"Chạm để lưu tên mới"</string>
+	<string name="folder_closed">"Đã đóng thư mục"</string>
+	<string name="folder_renamed">"Đã đổi tên thư mục thành <xliff:g example="Games" id="name">%1$s</xliff:g></string>
+	<string name="folder_name_format">"Thư mục: <xliff:g example="Games" id="name">%1$s</xliff:g></string>
+	
+	<string name="cannot_add_more_screen">"Không thể thêm màn hình"</string>
+	<string name="cannot_delete_more_screen">"Không có nhiều màn hình hơn để xóa"</string>
+	<string name="menu_preview">"Ảnh thu nhỏ màn hình chủ"</string>
+	<string name="menu_edit">"Tiện ích"</string>
+	<string name="menu_theme">"Chủ đề"</string>
+	<string name="menu_wallpaper">"Hình nền"</string>
+	<string name="menu_settings">"Cài đặt hệ thống"</string>
+	<string name="menu_desktop_settings">"Cài đặt màn hình chủ"</string>
+	
+	<string name="pref_desktop_effect">Desktop Transition Effect</string>
+	<string name="pref_screen_layout">"Giao diện màn hình"</string>
+	<string name="pref_screen_layout_summary">"Chọn các biểu tượng cho giao diện màn hình"</string>
+	<string name="pref_desktop_effect_summary">"Chọn cuộn màn hình khi di chuyển"</string>
+	<string name="pref_title_wallpaper_scrolling">"Hình nền cuộn"</string>
+	<string name="pref_summary_wallpaper_scrolling">"Cho phép hình nền di chuyển theo màn hình"</string>
+	<string name="pref_title_action_updown">Desktop Gestures</string>
+	<string name="pref_summary_action_updown">"Từ màn hình chủ, kéo xuống để mở bảng thông báo"</string>
+	<string name="pref_title_shake">"Lắc điện thoại để sắp xếp các biểu tượng"</string>
+	<string name="pref_summary_shake">"Lắc điện thoại để sắp xếp nhanh các biểu tượng trên màn hình"</string>
+	<string name="shake_degree_title">Shake sensitivity</string>
+	<string name="shake_degree_summary">Adjust how much force is needed to arrange Apps</string>
+	<string name="shake_degree_gentle">Gentle</string>
+	<string name="shake_degree_common">Common</string>
+	<string name="shake_degree_force">Difficult</string>
+	<string name="pref_title_lewa_lockscreen">"Sử dụng khóa màn hình LeWa"</string>
+	<string name="pref_hide_status_bar">"Ẩn thanh trạng thái khi khóa màn hình"</string>
+	<string name="pref_title_resetlauncher">"Cài đặt lại màn hình chủ"</string>
+	<string name="pref_summary_resetlauncher">"Khôi phục cài đặt gốc"</string>
+	<string name="pref_title_update">"Kiểm tra cập nhật"</string>
+	<string name="pref_summary_update">"Kiểm tra màn hình chủ LeWa có phải đã có phiên bản mới nhất?</string>
+	<string name="message_resetlauncher">"Khôi phục lại các biểu tượng, tiện ích và màn hình như trạng thái ban đầu"</string>
+	<string name="pref_label_settings">"Cài đặt màn hình chủ"</string>
+	<string name="pref_keep_resident">Keep resident</string>
+	<string name="pref_summary_keep_resident">Keep Launcher resident in memory.</string>
+
+	<string name="folder_full_hint">"Thư mục đầy"</string>
+	<string name="shortcut_phone">"Gọi điện"</string>
+	<string name="shortcut_contacts">"Danh bạ"</string>
+	<string name="shortcut_browser">"Trình duyệt"</string>
+	<string name="shortcut_messaging">“Tin nhắn"</string>
+	<string name="loading_prompt">"Đang tải"</string>
+	<string name="uninstall_system_app_text">"Đây là ứng dụng hệ thống và không thể gỡ cài đặt."</string>
+	<string name="uninstall_widget_text">"Tiện ích không thể gỡ bỏ"</string>
+	<string name="cannot_delete_widget_text">"Không thể xóa tiện ích "</string>
+	<string name="cannot_delete_app_text">"Ứng dụng không thể xóa"</string>
+	<string name="system_tool_folder">"Tiện ích"</string>
+	<string name="system_secrity_folder">"Hệ thống và an toàn"</string>
+	<string name="new_rom_hint">New</string>
+	<string name="onekey_lockscreen">"1 nút khóa màn hình"</string>
+	<string name="other_widgets">"Tiên ích khác"</string>
+	<string name="admin_description">"Tiện ích cho phép quyền hạn của quản trị được khóa màn hình trong lần vận hành đầu tiên"</string>
+	<string name="add_widget">"Thêm tiện ích"</string>
+	<string name="folder_not_empty_hint">"Thư mục trống, vui lòng dọn sạch sau đó thử lại"</string>
+	<string name="uninstall_done">"Gỡ bỏ thành công"</string>
+	<string name="uninstall_failed">"Gỡ bỏ thất bại"</string>
+	<string name="uninstall_failed_msg"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be uninstalled.</string>
+	<string name="uninstall_application_text">"Bạn muốn gỡ bỏ ứng dụng này không?"</string>
+	<string name="uninstall_failed_device_policy_manager">"Ứng dụng này đang được sử dụng quản lý thiết bị, không thể gỡ bỏ"</string>
+	<string name="uninstall_app_not_found_text">"Không tìm thấy ứng dụng trong bảng các ứng dụng đã cài đặt"</string>
+	<string name="uninstall_application_title">"Gỡ cài đặt ứng dụng"</string>
+	<string name="uninstall_update_title">"Gỡ cài đặt cập nhật"</string>
+	<string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> is part of the following app:</string>
+	<string name="uninstall_update_text">"Bạn muốn dùng ứng dụng này để thay thế phiên bản gốc không?”</string>
+	<string name="app_not_found_dlg_text">"Không tìm thấy ứng dụng này trong bảng các ứng dụng đã cài đặt"</string>
+</resources>

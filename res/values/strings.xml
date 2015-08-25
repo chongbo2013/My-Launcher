@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">Launcher</string>
+    <string name="folder_name">Folder</string>
+    <string name="chooser_wallpaper">Choose wallpaper from</string>
+    <string name="wallpaper_instructions">Set wallpaper</string>
+    <string name="pick_wallpaper">Wallpapers</string>
+    <string name="activity_not_found">App isn\'t installed</string>
+    <string name="widgets_tab_label">Widgets</string>
+    <string name="widget_dims_format" translatable="false">%1$d x %2$d</string>
+    <string name="external_drop_widget_pick_format" translatable="false">%1$s (%2$d x %3$d)</string>
+    <string name="rename_folder_title">rename</string>
+	
+    <!-- Title of dialog box -->
+    <string name="group_applications">Apps</string>
+    <string name="group_shortcuts">Shortcuts</string>
+    <string name="group_widgets">Widgets</string>
+    <string name="group_wallpapers">Wallpapers</string>
+    <string name="completely_out_of_space">No more room on your Home screens</string>
+    <string name="out_of_space">No more room on this Home screen.</string>
+    <string name="shortcut_installed">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" created.</string>
+    <string name="shortcut_uninstalled">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" was removed.</string>
+    <string name="shortcut_duplicate">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" already exists.</string>
+    <string name="title_select_shortcut">Choose shortcut</string>
+    <string name="title_select_application">Choose app</string>
+    
+    <!-- Permissions: -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <string name="permdesc_install_shortcut">Allows an app to add shortcuts without user intervention.</string>
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <string name="permdesc_uninstall_shortcut">Allows the app to remove shortcuts without user intervention.</string>
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <string name="permdesc_read_settings">Allows the app to read the settings and shortcuts in Home.</string>
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <string name="permdesc_write_settings">Allows the app to change the settings and shortcuts in Home.</string>
+    <string name="gadget_error_text">Problem loading widget</string>
+    <string name="folder_hint_text">Folder</string>
+
+    <string name="workspace_description_format">Home screen %1$d</string>
+    <string name="default_scroll_format">Page %1$d of %2$d</string>
+    <string name="workspace_scroll_format">Home screen %1$d of %2$d</string>
+    <add-resource type="string" name="default_folder_name" />
+
+    <string name="folder_opened">Folder opened, <xliff:g id="width" example="5">%1$d</xliff:g> by <xliff:g id="height" example="3">%2$d</xliff:g></string>
+    <string name="folder_tap_to_close">Touch to close folder</string>
+    <string name="folder_tap_to_rename">Touch to save rename</string>
+    <string name="folder_closed">Folder closed</string>
+    <string name="folder_renamed">Folder renamed to <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+    <string name="folder_name_format">Folder: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+
+    <string name="cannot_add_more_screen">You can\'t add more screens</string>
+    <string name="cannot_delete_more_screen">No more screen to delete.</string>
+    <string name="menu_preview">Preview</string>
+    <string name="menu_edit">Edit Mode</string>
+    <string name="menu_theme">Themes</string>
+    <string name="menu_wallpaper">Wallpaper</string>
+    <string name="menu_settings">System settings</string>
+    <string name="menu_desktop_settings">Home settings</string>
+
+    <string name="pref_desktop_effect">Desktop Transition Effect</string>
+    <string name="pref_screen_layout">Screen Layout</string>
+    <string name="pref_screen_layout_summary">Choose the screen layout of desktop icons</string>
+    <string name="pref_icon_size">Icon size</string>
+    <string name="pref_icon_size_summary">Choose suitable size for icons</string>
+    <string name="small_icon_size">Small</string>
+    <string name="normal_icon_size">Normal</string>
+    <string name="pref_desktop_effect_summary">Scrolling effect when scrolling homescreens</string>
+    <string name="pref_title_wallpaper_scrolling">Wallpaper Scrolling</string>
+    <string name="pref_summary_wallpaper_scrolling">Wallpaper moves together with desktop panels</string>
+    <string name="pref_title_action_updown">Desktop Gestures</string>
+    <string name="pref_summary_action_updown">From the desktop, swipe down to open the notifications</string>
+    <string name="pref_title_shake">Shake to arrange Apps</string>
+    <string name="pref_summary_shake">Shake the phone to quickly arrange current screen\'s Apps</string>
+    <string name="shake_degree_title">Shake sensitivity</string>
+    <string name="shake_degree_summary">Adjust how much force is needed to arrange Apps</string>
+    <string name="shake_degree_gentle">Gentle</string>
+    <string name="shake_degree_common">Common</string>
+    <string name="shake_degree_force">Difficult</string>
+    <string name="apps_recommend_title">Apps recommend</string>
+    <string name="apps_recommend_summary">Recommend the similar apps as Apps in current folder</string>
+    <string name="apps_smart_sort_title">Apps smart sort</string>
+    <string name="apps_smart_sort_summary">Smart sort apps on desktop to folder quickly</string>
+    <string name="pref_title_lewa_lockscreen">Use LeWa lockscreen</string>
+    <string name="pref_hide_status_bar">Hide status bar while screen is locked</string>
+    <string name="pref_title_resetlauncher">Reset Launcher</string>
+    <string name="pref_summary_resetlauncher">Reset Launcher</string>
+    <string name="pref_title_update">Check for updates</string>
+    <string name="pref_summary_update">Check the Lewa Launcher have the latest version</string>
+    <string name="message_resetlauncher">Reset all icons, widgets and screen position with in launcher</string>
+    <string name="pref_label_settings">Home settings</string>
+    <string name="pref_keep_resident">Keep resident</string>
+    <string name="pref_summary_keep_resident">Keep Launcher resident in memory.</string>
+    <string name="pref_screen_cycle">Circular sliding desktop</string>
+    <string name="pref_title_anim_scale">Anim scale</string>
+    <string name="pref_title_anim_duration">Anim duration</string>
+    
+    <string name="folder_full_hint">This folder is full.</string>
+    <string name="loading_prompt">Loading...</string>
+    <string name="uninstall_system_app_text">System App cannot be uninstalled</string>
+    <string name="uninstall_widget_text">Widget cannot be uninstalled</string>
+    <string name="cannot_delete_widget_text">Widget cannot be deleted</string>
+    <string name="cannot_delete_app_text">Application cannot be deleted</string>
+    <string name="system_tool_folder">Tools</string>
+    <string name="system_secrity_folder">System</string>
+    <string name="system_game_folder">Game</string>
+    <string name="system_lifestyle_folder">Life Style</string>
+    <string name="system_others_folder">Others</string>
+    <string name="social_life_folder">Social life</string>
+    <string name="entertainment_tcl_folder">Entertainment</string>
+    <string name="easy_work_folder">Easywork</string>
+    <string name="utilities_folder">Utilities</string>
+    <string name="new_rom_hint">New</string>
+    <string name="onekey_lockscreen">Quick LockScreen</string>
+    <string name="other_widgets">Other Widgets</string>
+    <string name="admin_description">Allow the widget with admin permissions to enable screen lock at first run.</string>
+    <string name="add_widget">Add widget</string>
+    <string name="folder_not_empty_hint">Folder is not empty, please try again after clearing. </string>
+    <string name="screen_not_space_available">The current screen no space available</string>
+    
+    <!-- App recommend and sort -->
+    <string name="server_game_category" translatable="false">我的游戏</string>
+    <string name="server_lifestyle_category" translatable="false">生活实用</string>
+    <string name="server_secrity_category" translatable="false">系统与安全</string>
+    <string name="server_game_recommend1" translatable="false">精选推荐</string>
+    <string name="server_game_recommend2" translatable="false">益智休闲</string>
+    <string name="server_others_category" translatable="false">其他应用</string>
+    <string name="server_lifestyle_house" translatable="false">找房子</string>
+    <string name="server_lifestyle_trade" translatable="false">找二手</string>
+    <string name="server_lifestyle_jop" translatable="false">找工作</string>
+    <string name="server_lifestyle_more" translatable="false">更多服务</string>
+    <string name="app_recommend_title">App Recommend</string>
+    <string name="confirm_smart_sort">Smart sort apps to folder</string>
+    <string name="restore_smart_sort">Restore sorted apps to workspace</string>
+    <string name="sorting_prompt">Sorting, please wait...</string>
+    <string name="sorting_complete">Smart sort completed.</string>
+    <string name="restore_complete">Restore sorted apps to workspace completed.</string>
+    <string name="no_available_network">No available network, please retry later</string>
+    <string name="download_prompt_title">Download confirm</string>
+    <string name="download_prompt_message">You\'re using mobile data. Downloading app will cost lot of data. Continue?</string>
+    <string name="download_start_hint"><xliff:g id="name" example="App">%s</xliff:g> start...</string>
+    <string name="download_end_hint"><xliff:g id="name" example="App">%s</xliff:g> installing...</string>
+    <string name="download_failed_hint"><xliff:g id="name" example="App">%s</xliff:g> download failed.</string>
+    <string name="download_failed_nospace">No more space for downloading.</string>
+    <string name="download_failed_other">Download failed, pleas retry later.</string>
+    <string name="downloading_sort">downloading sort.</string>
+    <string name="noti_install_success_text">Install success, click to launch.</string>
+    <string name="noti_install_failed_text">Install failed.</string>
+    
+    <!-- hidden -->
+    <string name="hidden_app_title">Hidden Apps</string>
+    <string name="select_app_title">Select Apps</string>
+    <string name="no_hidden_apps">No hidden Apps yet</string>
+    <string name="done">Done</string>
+    <string name="edit">Edit</string>
+    
+    <!-- uninstaller -->
+    <string name="uninstall_done">Uninstall finished.</string>
+    <string name="uninstall_failed">Uninstall unsuccessful.</string>
+    <string name="uninstall_failed_msg"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be uninstalled.</string>
+    <string name="uninstall_application_text">Do you want to uninstall this app?</string>
+    <string name="uninstall_failed_device_policy_manager">Can\'t uninstall because this package is an active device administrator.</string>
+    <string name="uninstall_app_not_found_text"> The app wasn\'t found in the list of installed apps.</string>
+    <string name="uninstall_application_title">Uninstall app</string>
+    <string name="uninstall_update_title">Uninstall update</string>
+    <string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> is part of the following app:</string>
+    <string name="uninstall_update_text">Do you want to replace this app with the factory version?</string>
+    <string name="app_not_found_dlg_text"> The app wasn\'t found in the list of installed apps.</string>
+  
+    <string name="widget_add_fail">can not add to this screen</string>
+    <string name="pull_to_refresh_pull_label">pull to refresh…</string>
+    <string name="pull_to_refresh_release_label">release to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">loading…</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="launcher_wallpaper">Wallpaper</string>
+    <string name="launcher_widget">Widgets</string>
+    <string name="launcher_anim">Transitions</string>
+    <string name="launcher_setting">Settings</string>
+    <string name="system_gadgets">System Components</string>
+    <string name="wallpaper_online">online</string>
+    <string name="wallpaper_local">local</string>
+    <string name="fun_item_arrange">Arrange</string>
+    <string name="start_download">start download</string>
+    <!--zwsun@letek.com 20150108 start-->
+    <string name="pref_title_piflow">T-show</string>
+    <string name="pref_summary_piflow">Display or close T-show news on the desktop</string>
+    <!--zwsun@letek.com 20150108 end-->
+
+    <!-- yixiao add for folder name-->
+    <string name="folder_recommend">Recommend</string>
+    <string name="folder_mobile_4G">Mobile 4G</string>
+    <string name="folder_system_secrity">System and Security</string>
+    <string name="add_screen_success_tip">Successfully add a new screen</string>
+    <string name="sort_app_message_timeout">downloading sort timeout</string>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="desktop_transition_effect_entries">
+        <item>Standard</item>
+        <item>Over Shoot</item>
+        <!--<item>Rotate Down</item>-->
+        <item>Flip</item>
+        <item>Cube In</item>
+        <item>Cube Out</item>
+        <item>Accordion</item>
+        <item>Carousel</item>
+    </string-array>
+    <string-array name="desktop_transition_effect_values" translatable="false">
+        <item>Standard</item>
+        <item>OverShoot</item>
+        <!--<item>RotateDown</item>-->
+        <item>Flip</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>Accordion</item>
+        <item>CarouselLeft</item>
+    </string-array>
+    <string-array name="large_screen_layout" translatable="false">
+        <item>4 * 4</item>
+        <item>4 * 5</item>
+    </string-array>
+    <string-array name="large_screen_layout_value" translatable="false">
+        <item>4|4</item>
+        <item>4|5</item>
+    </string-array>
+    <string-array name="ex_large_screen_layout" translatable="false">
+        <item>4 * 4</item>
+        <item>4 * 5</item>
+    </string-array>
+    <string-array name="ex_large_screen_layout_value" translatable="false">
+        <item>4|4</item>
+        <item>4|5</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>@string/small_icon_size</item>
+        <item>@string/normal_icon_size</item>
+    </string-array>
+    <string-array name="icon_size_value" translatable="false">
+        <item>0.85f</item>
+        <item>1.0f</item>
+    </string-array>
+    <string-array name="smart_sort_dialog_items">
+        <item>@string/confirm_smart_sort</item>
+        <item>@string/restore_smart_sort</item>
+    </string-array>
+    <string-array name="app_category" translatable="false">
+        <item>生活实用</item>
+        <item>聊天通讯</item>
+        <item>网络社交</item>
+        <item>系统与安全</item>
+        <item>影音阅读</item>
+        <item>主题壁纸</item>
+        <item>输入浏览</item>
+        <item>学习办公</item>
+        <item>我的游戏</item>
+        <item>其他应用</item>
+    </string-array>
+    <string-array name="game_second_category" translatable="false">
+        <item>策略游戏</item>
+        <item>动作格斗</item>
+        <item>飞行射击</item>
+        <item>角色冒险</item>
+        <item>模拟经营</item>
+        <item>其他游戏</item>
+        <item>手机网游</item>
+        <item>体育竞速</item>
+        <item>益智休闲</item>
+        <item>桌游棋牌</item>
+    </string-array>
+
+    <string-array name="widget_update_delays" translatable="false">
+        <item>com.when.android.calendar365</item>
+    </string-array>
+
+    <!--show widget package name in the front of widget list-->
+    <string-array name="system_widget_orders" translatable="false">
+        <item>com.lewa.weather</item>
+        <item>com.lewa.PIM</item>
+        <item>com.lewa.launcher5</item>
+        <item>com.android.email</item>
+    </string-array>
+
+    <!--system widget not to expand,the origin category is system widget should expand-->
+    <string-array name="expand_exclude" translatable="false">
+        <item>com.lewa.gallery3d</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.lewa.player</item>
+        <item>com.android.email</item>
+        <item>com.android.deskclock</item>
+    </string-array>
+</resources>

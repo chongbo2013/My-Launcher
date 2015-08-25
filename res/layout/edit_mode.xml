@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ListView
+            android:id="@+id/app_widget_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/hotseat_height"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:paddingTop="5dp"></ListView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/edit_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hotseat_height"
+        android:layout_gravity="bottom">
+
+        <com.lewa.launcher.view.MovedFrameLayoutWrapper
+            android:id="@+id/moved_layer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/edit_list_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <include
+                            android:id="@+id/component_list"
+                            layout="@layout/editscrollitem" />
+
+                        <include
+                            android:id="@+id/component_group_list"
+                            layout="@layout/editmodelist" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/edit_fun_ll"
+                    android:layout_width="@dimen/edit_func_width"
+                    android:layout_height="@dimen/hotseat_height"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:gravity="center_horizontal"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/fun_item_wallpaper"
+                        layout="@layout/edit_fun_item" />
+
+                    <include
+                        android:id="@+id/fun_item_widget"
+                        layout="@layout/edit_fun_item" />
+
+                    <include
+                        android:id="@+id/fun_item_anim"
+                        layout="@layout/edit_fun_item" />
+
+                    <include
+                        android:id="@+id/fun_item_arrange"
+                        layout="@layout/edit_fun_item" />
+                </LinearLayout>
+            </FrameLayout>
+        </com.lewa.launcher.view.MovedFrameLayoutWrapper>
+    </FrameLayout>
+</merge>

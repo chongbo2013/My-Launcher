@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string-array name="desktop_transition_effect_entries">
+    <item>มาตรฐาน</item>
+    <item>เด้งกลับ</item>
+    <item>แท็บเล็ต</item>
+    <item>ขยาย</item>
+    <item>ย่อ</item>
+    <item>หมุนขึ้น</item>
+    <item>หมุนลง</item>
+    <item>หมุน</item>
+    <item>ดีด</item>
+    <item>ลูกบาศก์ยุบเข้า</item>
+    <item>ลูกบาศก์นูนออก</item>
+    <item>เก็บซ้อน</item>
+    <item>หีบเพลง</item>
+    <item>กระบอกยุบเข้า</item>
+    <item>กระบอกนูนออก</item>
+    <item>ม้าหมุน</item>
+  </string-array>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.lewa.launcher">   
+    <!-- Hotseat START -->
+    <favorite
+        launcher:appType="CAMERA"
+        launcher:container="-101"
+        launcher:screen="-1"
+        launcher:x="0"
+        launcher:y="0" />
+        
+    <favorite
+        launcher:appType="GALLERY"
+        launcher:container="-101"
+        launcher:screen="-1"
+        launcher:x="1"
+        launcher:y="0" />
+    
+    <favorite
+        launcher:appType="BROWSER"
+        launcher:container="-101"
+        launcher:screen="-1"
+        launcher:x="2"
+        launcher:y="0"/>
+    
+    <favorite
+        launcher:appType="EMAIL"
+        launcher:container="-101"
+        launcher:screen="-1"
+        launcher:x="3"
+        launcher:y="0" />
+    
+    <!-- Hotseat END -->
+    
+    <!-- FIRST SCREEN START -->
+    <favorite
+        launcher:appType="CALENDAR"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />    
+
+    <favorite
+        launcher:appType="CLOCK"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="0" />
+    
+    <favorite
+        launcher:appType="CALCULATOR"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="0" />
+    
+    <favorite
+        launcher:appType="SETTING"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="0" />    
+    
+    <favorite
+        launcher:appType="MUSIC"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="1" />
+    <!-- 
+    <shortcut
+        launcher:container="-100"
+        launcher:icon="@drawable/ic_onekey_wallpaper"
+        launcher:title="@string/onekey_wallpaper"
+        launcher:uri="#Intent;component=com.lewa.launcher.t/com.lewa.themechooser.appwidget.OnekeyWallpaperShortcut;end"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="1" />
+    -->
+    <!-- FIRST SCREEN END -->            
+
+    <noncustom
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+</favorites>

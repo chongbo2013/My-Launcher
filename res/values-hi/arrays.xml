@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string-array name="desktop_transition_effect_entries">
+    <item>सामान्य</item>
+    <item>पलटाव</item>
+    <item>टेपलेट</item>
+    <item>ज़ूमइन</item>
+    <item>ज़ूमऑऊट</item>
+    <item>ऊपर की ओर रोटेशन</item>
+    <item>नीची की ओर रोटेशन</item>
+    <item>स्पिन</item>
+    <item>फ़्लिप</item>
+    <item>क्युब इन</item>
+    <item>क्युब ऑऊट</item>
+    <item>अनेकता</item>
+    <item>एकार्डियन</item>
+    <item>बेलन इन</item>
+    <item>बेलन ऑऊट</item>
+    <item>हिंडोला</item>
+  </string-array>
+  <string-array name="desktop_transition_effect_values" translatable="false">
+    <item>Standard</item>
+    <item>OverShoot</item>
+    <item>ZoomIn</item>
+    <item>ZoomOut</item>
+    <item>RotateUp</item>
+    <item>RotateDown</item>
+    <item>Spin</item>
+    <item>Flip</item>
+    <item>CubeIn</item>
+    <item>CubeOut</item>
+    <item>Stack</item>
+    <item>Accordion</item>
+    <item>CylinderIn</item>
+    <item>CylinderOut</item>
+    <item>CarouselLeft</item>
+  </string-array>
+  <string-array name="screen_layout" translatable="false">
+    <item>4 * 4</item>
+    <item>4 * 5</item>
+  </string-array>
+  <string-array name="screen_layout_value" translatable="false">
+    <item>4|4</item>
+    <item>4|5</item>
+  </string-array>
+</resources>

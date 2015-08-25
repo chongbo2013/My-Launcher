@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.lewa.launcher">   
+    <!-- Hotseat START -->
+    <favorite
+        launcher:appType="PHONE"
+        launcher:container="-101"
+        launcher:screen="-1"
+        launcher:x="0"
+        launcher:y="0"/>
+    <favorite
+        launcher:appType="CONTACTS"
+        launcher:container="-101"
+        launcher:screen="-1"
+        launcher:x="1"
+        launcher:y="0"/>
+    <favorite
+        launcher:appType="BROWSER"
+        launcher:container="-101"
+        launcher:screen="-1"
+        launcher:x="2"
+        launcher:y="0"/>
+    <favorite
+        launcher:appType="MMS"
+        launcher:container="-101"
+        launcher:screen="-1"
+        launcher:x="3"
+        launcher:y="0"/> 
+    <!-- Hotseat END -->
+    
+    <!-- FIRST SCREEN START -->
+    <appwidget
+        launcher:packageName="com.lewa.weather"
+        launcher:className="com.lewa.weather.widget.widget_v6_time_2x2"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="2"
+        launcher:spanY="2" />
+
+    <favorite
+        launcher:appType="CAMERA"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="2" />       
+    
+    <favorite
+        launcher:appType="GALLERY"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="2" />
+        
+    <favorite
+        launcher:packageName="com.lewa.player"
+        launcher:className="com.lewa.player.activity.SplashActivity"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="2" />
+
+    <favorite
+        launcher:packageName="com.lewa.themechooser"
+        launcher:className="com.lewa.themechooser.ThemeChooser"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="2" />
+    
+    <favorite
+        launcher:packageName="com.lewa.weather"
+        launcher:className="com.lewa.weather.LewaWeather"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3" />
+
+    <favorite
+        launcher:appType="CALENDAR"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="3" />
+    
+    <favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.LewaSettings"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="3" />
+    
+    <favorite
+        launcher:packageName="com.lewa.appstore"
+        launcher:className="com.lewa.appstore.MainActivity"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="3" /> 
+          
+    <!-- FIRST SCREEN END -->    
+    
+    <!-- SECOND SCREEN START -->
+    <appwidget
+        launcher:packageName="com.lewa.search"
+        launcher:className="com.lewa.search.widget.SearchWidgetProvider"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="1" />
+
+    <folder
+        launcher:appType="@string/server_game_category"
+        launcher:screen="1"
+        launcher:title="@string/system_game_folder"
+        launcher:x="0"
+        launcher:y="1" >
+        <shortcut
+            launcher:packageName="com.lewa.gamecenter"
+            launcher:className="com.lewa.gamecenter.ListActivity"
+            launcher:icon="@drawable/recommend_icon_game1"
+            launcher:title="@string/server_game_recommend1" />
+        <shortcut
+            launcher:packageName="com.lewa.gamecenter"
+            launcher:className="com.lewa.gamecenter.ListActivity"
+            launcher:icon="@drawable/recommend_icon_game2"
+            launcher:title="@string/server_game_recommend2" />
+    </folder>
+
+    <folder
+        launcher:appType="@string/server_lifestyle_category"
+        launcher:title="@string/system_lifestyle_folder"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1"
+>
+        <shortcut
+            launcher:packageName="com.lewa.appstore"
+            launcher:className="com.lewa.appstore.ListActivity"
+            launcher:icon="@drawable/recommend_icon_life"
+            launcher:title="@string/server_lifestyle_category" />
+        <favorite
+            launcher:packageName="com.baixing.lewa"
+            launcher:className="com.baixing.lewa.HouseActivityLewa"
+            launcher:icon="@drawable/recommend_icon_house"
+            launcher:title="@string/server_lifestyle_house" />
+        <favorite
+            launcher:packageName="com.baixing.lewa"
+            launcher:className="com.baixing.lewa.TradeActivityLewa"
+            launcher:icon="@drawable/recommend_icon_trade"
+            launcher:title="@string/server_lifestyle_trade" />
+        <favorite
+            launcher:packageName="com.baixing.lewa"
+            launcher:className="com.baixing.lewa.JobActivityLewa"
+            launcher:icon="@drawable/recommend_icon_job"
+            launcher:title="@string/server_lifestyle_jop" />
+        <favorite
+            launcher:packageName="com.baixing.lewa"
+            launcher:className="com.baixing.lewa.MoreActivityLewa"
+            launcher:icon="@drawable/recommend_icon_more"
+            launcher:title="@string/server_lifestyle_more" />
+    </folder>
+
+    <folder
+        launcher:title="@string/system_tool_folder"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="1" >
+        <favorite
+            launcher:packageName="com.android.soundrecorder"
+            launcher:className="com.android.soundrecorder.RecordActivity" />
+        <favorite
+            launcher:packageName="com.android.calculator2"
+            launcher:className="com.android.calculator2.Calculator" />
+        <favorite
+            launcher:packageName="com.lewa.compass"
+            launcher:className="com.lewa.compass.MainActivity" />
+        <favorite
+            launcher:packageName="com.lewa.flashlight"
+            launcher:className="com.lewa.flashlight.FlashlightActivity" />
+        <favorite
+            launcher:packageName="com.mediatek.FMRadio"
+            launcher:className="com.mediatek.FMRadio.LewaFMRadioActivity" />
+    </folder>
+    
+    <folder
+        launcher:title="@string/system_secrity_folder"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="1"
+        launcher:appType="@string/server_secrity_category">
+        <favorite
+            launcher:packageName="com.lewa.security"
+            launcher:className="com.lewa.security.SecurityActivity" />
+        <favorite
+            launcher:packageName="com.lewa.spm"
+            launcher:className="com.lewa.spm.activity.SPMActivity" />
+        <favorite
+            launcher:packageName="com.mediatek.StkSelection"
+            launcher:className="com.mediatek.StkSelection.StkSelection" />
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkCDMALauncherActivity" />
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkCDMALauncherActivity" />
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity" />
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity2" />
+    </folder>
+    <!-- SECOND SCREEN END -->
+
+    <noncustom
+        launcher:container="-101"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0" />
+</favorites>

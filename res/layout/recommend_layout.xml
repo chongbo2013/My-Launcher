@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lewa.launcher.AppRecommend xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+                android:id="@+id/recommend_refresh_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="@dimen/workspace_left_padding"
+                android:paddingLeft="@dimen/workspace_left_padding"
+                android:paddingRight="@dimen/workspace_left_padding"
+                android:paddingTop="@dimen/workspace_left_padding"
+                android:src="@drawable/recommend_refresh"
+                android:background="@drawable/recommend_refresh_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_recommend_title"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <ImageView
+                android:id="@+id/recommend_more_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="@dimen/workspace_left_padding"
+                android:paddingLeft="@dimen/workspace_left_padding"
+                android:paddingRight="@dimen/workspace_left_padding"
+                android:paddingTop="@dimen/workspace_left_padding"
+                android:src="@drawable/recommend_more"
+                android:background="@drawable/recommend_refresh_selector"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/recommend_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip" >
+    </LinearLayout>
+
+</com.lewa.launcher.AppRecommend>

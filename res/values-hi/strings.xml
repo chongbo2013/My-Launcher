@@ -1,0 +1,111 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="application_name">"लॉन्चर"</string>
+	<string name="folder_name">"फ़ोल्डर"</string>
+	<string name="chooser_wallpaper">"वॉलपेपर यहां से चुनें:"</string>
+	<string name="wallpaper_instructions">"वॉलपेपर सेट करें"</string>
+	<string name="pick_wallpaper">"वॉलपेपर"</string>
+	<string name="activity_not_found">"एप्‍लिकेशन इंस्‍टॉल नहीं है."</string>
+	<string name="widgets_tab_label">"विजेट"</string>
+	<string name="rename_folder_title">"रिनाम"</string>
+	
+	<!-- Title of dialog box -->
+	<string name="group_applications">"एप्लिकेशन"</string>
+	<string name="group_shortcuts">"शॉर्टकट"</string>
+	<string name="group_widgets">"विजेट"</string>
+	<string name="group_wallpapers">"वॉलपेपर"</string>
+	<string name="completely_out_of_space">"आपकी मुखपृष्ठ स्‍क्रीन पर अधिक स्थान नहीं है."</string>
+	<string name="out_of_space">"इस होम स्‍क्रीन पर और स्थान नहीं है."</string>
+	<string name="shortcut_installed">"\"<xliff:g example="Browser" id="name">%s</xliff:g>\" created.</string>
+	<string name="shortcut_uninstalled">"\"<xliff:g example="Browser" id="name">%s</xliff:g>\" was removed.</string>
+	<string name="shortcut_duplicate">Shortcut \"<xliff:g example="Browser" id="name">%s</xliff:g>\" already exists.</string>
+	<string name="title_select_shortcut">"शॉर्टकट चुनें"</string>
+	<string name="title_select_application">"एप्‍लिकेशन चुनें"</string>
+	
+	<!-- Permissions: -->
+	<string name="permlab_install_shortcut">"शॉर्टकट स्‍थापित करें"</string>
+	<string name="permdesc_install_shortcut">"एप्लिकेशन को उपयोगकर्ता के हस्‍तक्षेप के बिना शॉर्टकट जोड़ने देता है."</string>
+	<string name="permlab_uninstall_shortcut">"शॉर्टकट अनइंस्टॉल करें"</string>
+	<string name="permdesc_uninstall_shortcut">"एप्लिकेशन को उपयोगकर्ता के हस्‍तक्षेप के बिना शॉर्टकट निकालने देता है."</string>
+	<string name="permlab_read_settings">"होम सेटिंग और शॉर्टकट पढ़ें"</string>
+	<string name="permdesc_read_settings">"एप्लिकेशन को मुखपृष्ठ पर सेटिंग और शॉर्टकट पढ़ने देता है."</string>
+	<string name="permlab_write_settings">"होम सेटिंग और शॉर्टकट लिखें"</string>
+	<string name="permdesc_write_settings">"एप्लिकेशन को मुखपृष्ठ पर सेटिंग और शॉर्टकट बदलने देता है."</string>
+	<string name="gadget_error_text">"विजेट लोड करने में समस्‍या"</string>
+	<string name="folder_hint_text">"फ़ोल्डर"</string>
+	<string name="workspace_description_format">"होम स्‍क्रीन %1$d"</string>
+	<string name="default_scroll_format">"%2$d में से %1$d पृष्ठ"</string>
+	<string name="workspace_scroll_format">"%2$d में %1$d होम स्‍क्रीन"</string>
+	<add-resource name="default_folder_name" type="string" />
+	<string name="folder_opened">"फ़ोल्डर खोला गया, <xliff:g example="5" id="width">%1$d</xliff:g> by <xliff:g example="3" id="height">%2$d</xliff:g></string>
+	<string name="folder_tap_to_close">"फ़ोल्‍डर बंद करने के लिए स्‍पर्श करें"</string>
+	<string name="folder_tap_to_rename">"परिवर्तित नाम सहेजने के लिए स्पर्श करें"</string>
+	<string name="folder_closed">"फ़ोल्डर बंद किया गया"</string>
+	<string name="folder_renamed">"फ़ोल्डर का नाम बदलकर <xliff:g example="Games" id="name">%1$s</xliff:g></string>
+	<string name="folder_name_format">"फ़ोल्डर: <xliff:g example="Games" id="name">%1$s</xliff:g></string>
+	
+	<string name="cannot_add_more_screen">ज़्यातादर स्क्रिन नहीं जोड़ा जा सकता</string>
+	<string name="cannot_delete_more_screen">स्क्रिन की संख्या नीचतम है,मिटाया नहीं जा सकता।</string>
+	<string name="menu_preview">डेस्कटॉप लघुरूप</string>
+	<string name="menu_edit">"विजेट"</string>
+	<string name="menu_theme">थीम्स</string>
+	<string name="menu_wallpaper">"वॉलपेपर"</string>
+	<string name="menu_settings">"सिस्टम सेटिंग"</string>
+	<string name="menu_desktop_settings">होम सेटिंग</string>
+	
+	<string name="pref_desktop_effect">डेस्कटॉप स्लाईड विशेष प्रभाव</string>
+	<string name="pref_screen_layout">डेस्कटॉप लेआउट</string>
+	<string name="pref_screen_layout_summary">डेस्कटॉप प्रतिमा लेआउट चुनें</string>
+	<string name="pref_desktop_effect_summary">स्क्रिन स्ट्रोल करने में बदलनेवाला प्रभाव को चुनें</string>
+	<string name="pref_title_wallpaper_scrolling">वॉलपेपर स्क्रॉल</string>
+	<string name="pref_summary_wallpaper_scrolling">वॉलपेपर को स्क्रिन के साथ चलने की अनुमति दें</string>
+	<string name="pref_title_action_updown">इशारा प्रचालन</string>
+	<string name="pref_summary_action_updown">डेस्कटॉप पर नीची ओर स्लाईड वाला इशारा दें,ताकि तीव्र से नोट पट्टी को खोलें</string>
+	<string name="pref_title_shake">फ़ोन हिलने से प्रतिमा वर्गीकरण करें</string>
+	<string name="pref_summary_shake">फ़ोन हिलने से तीव्र तत्काल स्क्रिन में प्रतिमा को वर्गीकरण कर सकता है</string>
+	<string name="shake_degree_title">Shake sensitivity</string>
+	<string name="shake_degree_summary">Adjust how much force is needed to arrange Apps</string>
+	<string name="shake_degree_gentle">Gentle</string>
+	<string name="shake_degree_common">Common</string>
+	<string name="shake_degree_force">Difficult</string>
+	<string name="pref_title_lewa_lockscreen">लअवआ से स्क्रिन लॉक करें</string>
+	<string name="pref_hide_status_bar">स्क्रिन लॉक करने से स्थिति पट्टी छिपाएं</string>
+	<string name="pref_title_resetlauncher">डेस्कटॉप रिसेट</string>
+	<string name="pref_summary_resetlauncher">डेस्कटॉप प्रतिमा、विजेट और स्क्रिन को प्रारंभिक स्थिति में रिसेट करें</string>
+	<string name="pref_title_update">आपडेट की जांच</string>
+	<string name="pref_summary_update">लअवआ डेस्कटॉप वरशन की जांच करें</string>
+	<string name="message_resetlauncher">डेस्कटॉप रिसेट से डेस्कटॉप प्रतिमा、विजेट और स्क्रिन प्रारंभिक स्थिति में रिसेट किया जाएगा।</string>
+	<string name="pref_label_settings">डेस्कटॉप सेटिंग</string>
+    <string name="pref_keep_resident">Keep resident</string>
+    <string name="pref_summary_keep_resident">Keep Launcher resident in memory.</string>
+
+	<string name="folder_full_hint">फ़ोल्डर पूरा है</string>
+	<string name="shortcut_phone">डॉयल</string>
+	<string name="shortcut_contacts">संपर्क</string>
+	<string name="shortcut_browser">ब्राऊज़र</string>
+	<string name="shortcut_messaging">संदेश</string>
+	<string name="loading_prompt">लोड हो रहा है...</string>
+	<string name="uninstall_system_app_text">"यह सिस्‍टम एप्लिकेशन है और इसे अनइंस्‍टॉल नहीं किया जा सकता."</string>
+	<string name="uninstall_widget_text">विजेट की स्थापना रद्द नहीं की जा सकती</string>
+	<string name="cannot_delete_widget_text">विजेट हटाया नहीं जा सकता</string>
+	<string name="cannot_delete_app_text">अनुप्रयोग हटाया नहीं जा सकता</string>
+	<string name="system_tool_folder">विजेट</string>
+	<string name="system_secrity_folder">सिस्टीम</string>
+	<string name="new_rom_hint">New</string>
+	<string name="onekey_lockscreen">एक कुंजी से स्क्रिन लॉक</string>
+	<string name="other_widgets">दूसरा विजेट</string>
+	<string name="admin_description">व्यवस्थापक क्षमता होनेवाले विजेटों के पास ऐसी अनुमति है कि पहली बार प्रचालन में स्क्रिन लॉक कर सकता है।</string>
+	<string name="add_widget">विजेट जोड़ें</string>
+	<string name="folder_not_empty_hint">ऴोल्डर खाली नहीं है,उसे साफ़ करने के बाद ही फिर कीजिये।</string>
+	<string name="uninstall_done">"स्थापना रद्द करना पूरा है"</string>
+	<string name="uninstall_failed">"स्थापना रद्द करना विफ़ल"</string>
+	<string name="uninstall_failed_msg"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be uninstalled.</string>
+	<string name="uninstall_application_text">"इस अनुप्रयोग की स्थापना रद्द करें या नहीं？"</string>
+	<string name="uninstall_failed_device_policy_manager">"यह अनुप्रयोग तो तत्काल उपयोग हो रहनेवाला उपकरण प्रबंधक है,उस की स्थापना रद्द नहीं की जा सकती।"</string>
+	<string name="uninstall_app_not_found_text">स्थापित अनुप्रयोग लिस्ट में यह अनुप्रयोग नहीं मिला है।</string>
+	<string name="uninstall_application_title">"एप्‍लिकेशन अनइंस्‍टॉल करें"</string>
+	<string name="uninstall_update_title">"अपडेट अनइंस्‍टॉल करें"</string>
+	<string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> is part of the following app:</string>
+	<string name="uninstall_update_text">"क्या आप इस अनुप्रयोग वरशन की जगह फ़ैक्टरी वरशन ले चाहते हैं？"</string>
+	<string name="app_not_found_dlg_text">"स्थापित अनुप्रयोग लिस्ट में यह अनुप्रयोग नहीं मिला।"</string>
+</resources>

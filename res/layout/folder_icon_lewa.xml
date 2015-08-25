@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.lewa.launcher.FolderIcon
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true">
+    <LinearLayout
+            android:id="@+id/folder_icon_zone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal">
+        <LinearLayout
+                android:id="@+id/preview_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/preview_background_padding">
+
+            <com.lewa.launcher.FolderPreviewLayout
+                    android:id="@+id/folder_preview_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+            </com.lewa.launcher.FolderPreviewLayout>
+
+        </LinearLayout>
+        <TextView
+                android:id="@+id/folder_icon_name"
+                style="@style/WorkspaceIcon"
+                android:layout_width="match_parent"/>
+    </LinearLayout>
+    <ImageView
+            android:id="@+id/app_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:visibility="invisible"
+            android:duplicateParentState="true"
+            android:src="@drawable/floating_selector"/>
+    <ImageView
+            android:id="@+id/floating_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            android:visibility="invisible"
+            android:duplicateParentState="true"
+            android:src="@drawable/floating_open_folder"/>
+    <TextView
+            android:id="@+id/folder_unread"
+            style="@style/MsgHintAppearance"/>
+</com.lewa.launcher.FolderIcon>

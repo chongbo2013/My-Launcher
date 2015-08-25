@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/folder_name_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:minWidth="@dimen/folder_name_min_width"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/folder_name_padding"
+    android:paddingRight="@dimen/folder_name_padding" >
+
+    <com.lewa.launcher.FolderEditText
+        android:id="@+id/folder_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/folder_bound"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textCursorDrawable="@null"
+        android:textSize="22sp"
+        android:hint="&#160;" />
+</LinearLayout>

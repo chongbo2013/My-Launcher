@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.lewa.launcher.DragLayer 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.lewa.launcher"
+    android:id="@+id/drag_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false" >
+<!--zwsun@letek.com 20150108 start-->
+    <com.lewa.launcher.Workspace
+        android:id="@+id/workspace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        launcher:pageSpacing="@dimen/workspace_page_spacing" >
+    </com.lewa.launcher.Workspace>
+<!--zwsun@letek.com 20150108 end-->
+    <com.lewa.launcher.ThumbnailView
+        android:id="@+id/workspace_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9f000000"
+        android:paddingTop="@dimen/statusbar_height"
+        android:visibility="invisible" >
+    </com.lewa.launcher.ThumbnailView>
+
+    <com.lewa.launcher.DeleteDropTarget
+        android:id="@+id/delete_zone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/workspace_delete_height"
+        android:layout_gravity="top"
+        android:background="@drawable/delete_zone_bg_normal"
+        android:gravity="center"
+        android:visibility="gone" >
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="14sp"/>
+    </com.lewa.launcher.DeleteDropTarget>
+
+    <com.lewa.launcher.DesktopIndicator
+        android:id="@+id/desktop_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/indicator_height"
+        android:gravity="center"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/hotseat_height"
+        android:paddingBottom="@dimen/indicator_tb_padding"
+        android:paddingTop="@dimen/indicator_tb_padding" />
+
+    <LinearLayout
+        android:id="@+id/edit_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hotseat_height"
+        android:alpha="0"
+        android:layout_gravity="bottom"
+        android:background="@drawable/edit_bg"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hotseat_gradient"
+        android:layout_gravity="bottom"
+        >
+        <com.lewa.launcher.view.MovedHotseatWrapper
+            android:id="@+id/hotseat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hotseat_height"
+            android:layout_gravity="bottom"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            >
+            <include layout="@layout/hotseat_item" />
+            <include layout="@layout/hotseat_item" />
+            <include layout="@layout/hotseat_item" />
+            <include layout="@layout/hotseat_item" />
+        </com.lewa.launcher.view.MovedHotseatWrapper>
+    </LinearLayout>
+    <com.lewa.launcher.FloatingLayer
+        android:id="@+id/workspace_floating"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+    </com.lewa.launcher.FloatingLayer>
+    
+    <com.lewa.launcher.EditModeLayer 
+        android:id="@+id/workspace_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:visibility="invisible" >
+        <include layout="@layout/edit_mode"/>
+    </com.lewa.launcher.EditModeLayer>
+</com.lewa.launcher.DragLayer>

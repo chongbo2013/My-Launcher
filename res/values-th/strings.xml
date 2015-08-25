@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="application_name">"ตัวเรียกใช้งาน"</string>
+	<string name="folder_name">โฟลเดอร์</string>
+	<string name="chooser_wallpaper">"เลือกวอลเปเปอร์จาก"</string>
+	<string name="wallpaper_instructions">"ตั้งค่าวอลเปเปอร์"</string>
+	<string name="pick_wallpaper">"วอลเปเปอร์"</string>
+	<string name="activity_not_found">"ไม่ได้ติดตั้งแอปพลิเคชัน"</string>
+	<string name="widgets_tab_label">"วิดเจ็ต"</string>
+	<string name="rename_folder_title">เปลี่ยนชื่อ</string>
+	
+	<!-- Title of dialog box -->
+	<string name="group_applications">"แอปพลิเคชัน"</string>
+	<string name="group_shortcuts">"ทางลัด"</string>
+	<string name="group_widgets">"วิดเจ็ต"</string>
+	<string name="group_wallpapers">"วอลเปเปอร์"</string>
+	<string name="completely_out_of_space">"ไม่มีที่ว่างในหน้าจอหลักของคุณ"</string>
+	<string name="out_of_space">"ไม่มีที่ว่างในหน้าจอหลักนี้"</string>
+	<string name="shortcut_installed">"สร้างทางลัด \"<xliff:g example="Browser" id="name">%s</xliff:g>\" created.</string>
+	<string name="shortcut_uninstalled">"ทางลัด \"<xliff:g example="Browser" id="name">%s</xliff:g>\" was removed.</string>
+	<string name="shortcut_duplicate">"ทางลัด \"<xliff:g example="Browser" id="name">%s</xliff:g>\" already exists.</string>
+	<string name="title_select_shortcut">"เลือกทางลัด"</string>
+	<string name="title_select_application">"เลือกแอปพลิเคชัน"</string>
+	
+	<!-- Permissions: -->
+	<string name="permlab_install_shortcut">"ติดตั้งทางลัด"</string>
+	<string name="permdesc_install_shortcut">"อนุญาตให้แอปพลิเคชันเพิ่มทางลัดโดยไม่ต้องให้ผู้ใช้จัดการ"</string>
+	<string name="permlab_uninstall_shortcut">"ถอนการติดตั้งทางลัด"</string>
+	<string name="permdesc_uninstall_shortcut">"อนุญาตให้แอปพลิเคชันนำทางลัดออกโดยไม่ต้องให้ผู้ใช้จัดการ"</string>
+	<string name="permlab_read_settings">"อ่านการตั้งค่าและทางลัดหน้าแรกแล้ว"</string>
+	<string name="permdesc_read_settings">"อนุญาตให้แอปพลิเคชันอ่านการตั้งค่าและทางลัดในหน้าหลัก"</string>
+	<string name="permlab_write_settings">"เขียนการตั้งค่าและทางลัดหน้าแรกแล้ว"</string>
+	<string name="permdesc_write_settings">"อนุญาตให้แอปพลิเคชันเปลี่ยนการตั้งค่าและทางลัดในหน้าหลัก"</string>
+	<string name="gadget_error_text">"มีปัญหาขณะโหลดวิดเจ็ต"</string>
+	<string name="folder_hint_text">โฟลเดอร์</string>
+	<string name="workspace_description_format">"หน้าจอหลัก %1$d"</string>
+	<string name="default_scroll_format">"หน้า %1$d จาก %2$d"</string>
+	<string name="workspace_scroll_format">"หน้าจอหลัก %1$d จาก %2$d"</string>
+	<add-resource name="default_folder_name" type="string" />
+	<string name="folder_opened">"เปิดโฟลเดอร์ <xliff:g example="5" id="width">%1$d</xliff:g> by <xliff:g example="3" id="height">%2$d</xliff:g></string>
+	<string name="folder_tap_to_close">"แตะเพื่อปิดโฟลเดอร์"</string>
+	<string name="folder_tap_to_rename">"แตะเพื่อบันทึกการเปลี่ยนชื่อ"</string>
+	<string name="folder_closed">"โฟลเดอร์ปิดอยู่"</string>
+	<string name="folder_renamed">"เปลี่ยนชื่อโฟลเดอร์เป็น <xliff:g example="Games" id="name">%1$s</xliff:g></string>
+	<string name="folder_name_format">"โฟลเดอร์: <xliff:g example="Games" id="name">%1$s</xliff:g></string>
+	
+	<string name="cannot_add_more_screen">ไม่สามารถเพิ่มหน้าจอได้อีก</string>
+	<string name="cannot_delete_more_screen">จำนวนหน้าจอเหลือน้อยเกินกว่าจะลบได้</string>
+	<string name="menu_preview">ย่อหน้าเดสก์ท็อป</string>
+	<string name="menu_edit">"วิดเจ็ต"</string>
+	<string name="menu_theme">รูปแบบที่หลากหลาย</string>
+	<string name="menu_wallpaper">"วอลเปเปอร์"</string>
+	<string name="menu_settings">"การตั้งค่าระบบ"</string>
+	<string name="menu_desktop_settings">การตั้งค่าเดสก์ทอป</string>
+	
+	<string name="pref_desktop_effect">การเลื่อนเดสก์ท็อปแบบพิเศษ</string>
+	<string name="pref_screen_layout">รูปแบบหน้าจอ</string>
+	<string name="pref_screen_layout_summary">เลือกรูปแบบหน้าจอของไอคอนเดสก์ท็อป</string>
+	<string name="pref_desktop_effect_summary">เกิดเอฟเฟคก์การเลื่อนเมื่อเลื่อนหน้าจอ</string>
+	<string name="pref_title_wallpaper_scrolling">วอลล์เปเปอร์เลื่อน</string>
+	<string name="pref_summary_wallpaper_scrolling">วอลล์เปเปอร์เคลื่อนไหวพร้อมกับแผงเดสก์ท็อป</string>
+	<string name="pref_title_action_updown">การสัมผัส</string>
+	<string name="pref_summary_action_updown">ปัดเดสก์ทอปลงเพื่อเปิดการแจ้งเตือน</string>
+	<string name="pref_title_shake">เขย่าเพื่อจัดแอปพลิเคชัน</string>
+	<string name="pref_summary_shake">เขย่าโทรศัพท์เพื่อจัดแอปพลิเคชั่นอย่างรวดเร็วบนหน้าจอ</string>
+	<string name="shake_degree_title">Shake sensitivity</string>
+	<string name="shake_degree_summary">Adjust how much force is needed to arrange Apps</string>
+	<string name="shake_degree_gentle">Gentle</string>
+	<string name="shake_degree_common">Common</string>
+	<string name="shake_degree_force">Difficult</string>
+	<string name="pref_title_lewa_lockscreen">ใช้การล๊อกหน้าจอเลว่า</string>
+	<string name="pref_hide_status_bar">ซ่อนแถบสถานะขณะล็อกหน้าจอ</string>
+	<string name="pref_title_resetlauncher">ตั้งค่าเดสก์ท็อปใหม่</string>
+	<string name="pref_summary_resetlauncher">กลับไปสถานะเริ่มต้นของไอคอนเดสก์ท็อป เครื่องมือย่อย และหน้าจอ</string>
+	<string name="pref_title_update">เช็คสำหรับการอัพเดท</string>
+	<string name="pref_summary_update">ตรวจสอบเลว่าเดสก์ท็อปว่ามีการอัพเดทใหม่หรือไม่</string>
+	<string name="message_resetlauncher">ตั้งค่ากลับไปสถานะเริ่มต้นของไอคอนเดสก์ท็อป เครื่องมือย่อย และหน้าจอ</string>
+	<string name="pref_label_settings">การตั้งค่าเดสก์ท็อป</string>
+    <string name="pref_keep_resident">Keep resident</string>
+    <string name="pref_summary_keep_resident">Keep Launcher resident in memory.</string>
+
+	<string name="folder_full_hint">โฟลเดอร์เต็มแล้ว</string>
+	<string name="shortcut_phone">หมายเลขโทรศัพท์</string>
+	<string name="shortcut_contacts">ผู้ติดต่อ</string>
+	<string name="shortcut_browser">เบราว์เซอร์</string>
+	<string name="shortcut_messaging">ข้อความ</string>
+	<string name="loading_prompt">กำลังโหลด</string>
+	<string name="uninstall_system_app_text">"นี่เป็นแอปพลิเคชันระบบและไม่สามารถถอนการติดตั้งได้"</string>
+	<string name="uninstall_widget_text">เครื่องมือนี้ไม่สามารถถอนการติดตั้ง</string>
+	<string name="cannot_delete_widget_text">ไม่สามารถเคลื่อนย้ายเครื่องมือนี้ได้</string>
+	<string name="cannot_delete_app_text">แอปพลิเคชั่นไม่สามารถลบได้</string>
+	<string name="system_tool_folder">เครื่องมือ</string>
+	<string name="system_secrity_folder">ระบบและความปลอดภัย</string>
+	<string name="new_rom_hint">New</string>
+	<string name="onekey_lockscreen">สัมผัสเดียวล็อคหน้าจอ</string>
+	<string name="other_widgets">วิดเจ็ตอื่นๆ</string>
+	<string name="admin_description">อนุญาติสิทธิ์ของผู้ดูแลระบบเพื่อล็อคหน้าจอครั้งแรกที่ใช้งาน</string>
+	<string name="add_widget">เพิ่มเครื่องมือย่อย</string>
+	<string name="folder_not_empty_hint">โฟลเดอร์ไม่ได้ว่างเปล่า โปรดเคลียร์โฟลเดอร์แล้วลองใหม่</string>
+	<string name="uninstall_done">ถอนการติดตั้งเรียบร้อย</string>
+	<string name="uninstall_failed">การถอนการติดตั้งล้มเหลว</string>
+	<string name="uninstall_failed_msg"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be uninstalled.</string>
+	<string name="uninstall_application_text">ต้องการที่จะถอนการติดตั้งแอปพลิเคชั้นนี้หรือไม่?</string>
+	<string name="uninstall_failed_device_policy_manager">ไม่สามารถถอนการติดตั้ง เนื่องจากเป็นโปรแกรมดูแลระบบที่ใช้งานอยู่</string>
+	<string name="uninstall_app_not_found_text">ไม่พบแอปพลิเคชั่นในรายชื่อของแอปพลิเคชั่นที่ติดตั้งแล้ว</string>
+	<string name="uninstall_application_title">"ถอนการติดตั้งแอปพลิเคชัน"</string>
+	<string name="uninstall_update_title">"ถอนการติดตั้งการอัปเดต"</string>
+	<string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> is part of the following app:</string>
+	<string name="uninstall_update_text">คุณต้องการใช้แอปพลิเคชั่นนี้แทนรุ่นโรงงานหรือไม่?</string>
+	<string name="app_not_found_dlg_text">ไม่พบแอปพลิเคชั่นในรายการของแอปพลิเคชั่นที่ติดตั้ง</string>
+</resources>

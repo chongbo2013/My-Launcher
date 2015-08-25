@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hotseat_height">120dip</dimen>
+    <dimen name="hotseat_plus_indicator_height">136dip</dimen>
+    <dimen name="indicator_lr_padding">20dip</dimen>
+    <dimen name="indicator_tb_padding">4dip</dimen>
+    <dimen name="folder_cell_height">120dp</dimen>
+</resources>

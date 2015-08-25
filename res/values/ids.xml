@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="workspace_preview" type="id"/>
+    <item name="workspace_preview_id" type="id"/>
+    <item name="item_index" type="id"></item>
+    <item name="widget_list_item_tag" type="id"></item>
+    <item name="widget_list_holder_tag" type="id"></item>
+    <item type="id" name="scrollview" />
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/edit_widget_width"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <com.lewa.launcher.view.PressedImageView
+            android:id="@+id/item_iv"
+            android:layout_width="@dimen/edit_widget_image_width"
+            android:layout_height="@dimen/edit_widget_image_height"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="3dp"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/item_expand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/widget_expand"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/item_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anim_text_bg"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="5dp"
+        android:textSize="10dp" />
+</LinearLayout>

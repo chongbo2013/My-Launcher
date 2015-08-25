@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lewa.launcher.AppRecommendItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" 
+    android:layout_weight="1">
+    <FrameLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/r_icon"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:padding="5dip"
+            android:background="@drawable/recommend_icon_bg"
+            android:layout_gravity="center"
+            android:scaleType="fitXY" />
+        <ImageView
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:background="@drawable/recommend_mask_selector"
+            android:layout_gravity="bottom" />
+        <ProgressBar
+            android:id="@+id/download_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/recommend_progress_drawable"
+            android:layout_width="40dip"
+            android:layout_height="5dip"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="8dp"
+            android:visibility="invisible"
+            android:max="100" />
+        <ProgressBar
+            android:id="@+id/refresh_progress"
+            android:layout_width="60dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:max="100" />
+        <ImageView android:id="@+id/download_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recommend_download_selector"
+            android:layout_gravity="center|bottom" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/r_title"
+        style="@style/WorkspaceIcon" />
+
+</com.lewa.launcher.AppRecommendItem>

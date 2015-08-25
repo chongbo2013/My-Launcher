@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    >
+    <com.lewa.launcher.view.PressedImageView
+        android:id="@+id/wallpaper_thumb" 
+        android:layout_width="@dimen/edit_wallpaper_size"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:id="@+id/wallpaper_checked" 
+        android:layout_width="@dimen/checked_size"
+        android:layout_height="@dimen/checked_size"
+        android:src="@drawable/edit_checked"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="13dp"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        />
+    
+     <ImageView
+        android:id="@+id/loading_iv" 
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/loading_img"
+        android:layout_marginTop="15dp"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/wallpaper_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:visibility="invisible"
+        style="@style/TextShadowStyle"
+        />
+</FrameLayout>
